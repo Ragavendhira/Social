@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A9F131216E034E00D042BD /* SocialFrameWorks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A9F127216E034E00D042BD /* SocialFrameWorks.framework */; };
+		08A9F136216E034E00D042BD /* SocialFrameWorksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A9F135216E034E00D042BD /* SocialFrameWorksTests.swift */; };
+		08A9F138216E034E00D042BD /* SocialFrameWorks.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A9F12A216E034E00D042BD /* SocialFrameWorks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A9F142216E041300D042BD /* SocialMediaLogin in Resources */ = {isa = PBXBuildFile; fileRef = 08A9F141216E041300D042BD /* SocialMediaLogin */; };
+		0DF9ED49637C7D2FB392AACF /* Pods_SocialFrameWorksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09590E0FF8E13973E17BAD8 /* Pods_SocialFrameWorksTests.framework */; };
+		631F6463CC39A697B6158224 /* Pods_SocialFrameWorks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EEB19A6CCD24E9F4F4E65B /* Pods_SocialFrameWorks.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A9F132216E034E00D042BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A9F11E216E034E00D042BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A9F126216E034E00D042BD;
+			remoteInfo = SocialFrameWorks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06EEDA7824F8499013B92778 /* Pods-SocialFrameWorks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialFrameWorks.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialFrameWorks/Pods-SocialFrameWorks.release.xcconfig"; sourceTree = "<group>"; };
+		08A9F127216E034E00D042BD /* SocialFrameWorks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialFrameWorks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A9F12A216E034E00D042BD /* SocialFrameWorks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrameWorks.h; sourceTree = "<group>"; };
+		08A9F12B216E034E00D042BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A9F130216E034E00D042BD /* SocialFrameWorksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialFrameWorksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A9F135216E034E00D042BD /* SocialFrameWorksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialFrameWorksTests.swift; sourceTree = "<group>"; };
+		08A9F137216E034E00D042BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A9F141216E041300D042BD /* SocialMediaLogin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SocialMediaLogin; sourceTree = SOURCE_ROOT; };
+		60597A793B91E2D0211CE338 /* Pods-SocialFrameWorksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialFrameWorksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialFrameWorksTests/Pods-SocialFrameWorksTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A03DB22585ECACD21012E3C /* Pods-SocialFrameWorksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialFrameWorksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialFrameWorksTests/Pods-SocialFrameWorksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3EFE5780D602BE933C05B06 /* Pods-SocialFrameWorks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialFrameWorks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialFrameWorks/Pods-SocialFrameWorks.debug.xcconfig"; sourceTree = "<group>"; };
+		E09590E0FF8E13973E17BAD8 /* Pods_SocialFrameWorksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialFrameWorksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EEB19A6CCD24E9F4F4E65B /* Pods_SocialFrameWorks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialFrameWorks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A9F124216E034E00D042BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631F6463CC39A697B6158224 /* Pods_SocialFrameWorks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A9F12D216E034E00D042BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A9F131216E034E00D042BD /* SocialFrameWorks.framework in Frameworks */,
+				0DF9ED49637C7D2FB392AACF /* Pods_SocialFrameWorksTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A9F11D216E034E00D042BD = {
+			isa = PBXGroup;
+			children = (
+				08A9F129216E034E00D042BD /* SocialFrameWorks */,
+				08A9F134216E034E00D042BD /* SocialFrameWorksTests */,
+				08A9F128216E034E00D042BD /* Products */,
+				F49996E68D7F6CEFD3673EF2 /* Pods */,
+				7A5DFFBADDF79C5806D9A009 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08A9F128216E034E00D042BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A9F127216E034E00D042BD /* SocialFrameWorks.framework */,
+				08A9F130216E034E00D042BD /* SocialFrameWorksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A9F129216E034E00D042BD /* SocialFrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				08A9F141216E041300D042BD /* SocialMediaLogin */,
+				08A9F12A216E034E00D042BD /* SocialFrameWorks.h */,
+				08A9F12B216E034E00D042BD /* Info.plist */,
+			);
+			path = SocialFrameWorks;
+			sourceTree = "<group>";
+		};
+		08A9F134216E034E00D042BD /* SocialFrameWorksTests */ = {
+			isa = PBXGroup;
+			children = (
+				08A9F135216E034E00D042BD /* SocialFrameWorksTests.swift */,
+				08A9F137216E034E00D042BD /* Info.plist */,
+			);
+			path = SocialFrameWorksTests;
+			sourceTree = "<group>";
+		};
+		7A5DFFBADDF79C5806D9A009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EEB19A6CCD24E9F4F4E65B /* Pods_SocialFrameWorks.framework */,
+				E09590E0FF8E13973E17BAD8 /* Pods_SocialFrameWorksTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F49996E68D7F6CEFD3673EF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFE5780D602BE933C05B06 /* Pods-SocialFrameWorks.debug.xcconfig */,
+				06EEDA7824F8499013B92778 /* Pods-SocialFrameWorks.release.xcconfig */,
+				8A03DB22585ECACD21012E3C /* Pods-SocialFrameWorksTests.debug.xcconfig */,
+				60597A793B91E2D0211CE338 /* Pods-SocialFrameWorksTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08A9F122216E034E00D042BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A9F138216E034E00D042BD /* SocialFrameWorks.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08A9F126216E034E00D042BD /* SocialFrameWorks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A9F13B216E034E00D042BD /* Build configuration list for PBXNativeTarget "SocialFrameWorks" */;
+			buildPhases = (
+				311D0BACC7BDB600BBF74674 /* [CP] Check Pods Manifest.lock */,
+				08A9F122216E034E00D042BD /* Headers */,
+				08A9F123216E034E00D042BD /* Sources */,
+				08A9F124216E034E00D042BD /* Frameworks */,
+				08A9F125216E034E00D042BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialFrameWorks;
+			productName = SocialFrameWorks;
+			productReference = 08A9F127216E034E00D042BD /* SocialFrameWorks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		08A9F12F216E034E00D042BD /* SocialFrameWorksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A9F13E216E034E00D042BD /* Build configuration list for PBXNativeTarget "SocialFrameWorksTests" */;
+			buildPhases = (
+				DB45A5633FFE2326F2A40ABD /* [CP] Check Pods Manifest.lock */,
+				08A9F12C216E034E00D042BD /* Sources */,
+				08A9F12D216E034E00D042BD /* Frameworks */,
+				08A9F12E216E034E00D042BD /* Resources */,
+				7E78504430D6A4615477E900 /* [CP] Embed Pods Frameworks */,
+				367C16DD5BF5D4621A1B1E12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A9F133216E034E00D042BD /* PBXTargetDependency */,
+			);
+			name = SocialFrameWorksTests;
+			productName = SocialFrameWorksTests;
+			productReference = 08A9F130216E034E00D042BD /* SocialFrameWorksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A9F11E216E034E00D042BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = CSS;
+				TargetAttributes = {
+					08A9F126216E034E00D042BD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					08A9F12F216E034E00D042BD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 08A9F121216E034E00D042BD /* Build configuration list for PBXProject "SocialFrameWorks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08A9F11D216E034E00D042BD;
+			productRefGroup = 08A9F128216E034E00D042BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A9F126216E034E00D042BD /* SocialFrameWorks */,
+				08A9F12F216E034E00D042BD /* SocialFrameWorksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A9F125216E034E00D042BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A9F142216E041300D042BD /* SocialMediaLogin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A9F12E216E034E00D042BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		311D0BACC7BDB600BBF74674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialFrameWorks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		367C16DD5BF5D4621A1B1E12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialFrameWorksTests/Pods-SocialFrameWorksTests-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialFrameWorksTests/Pods-SocialFrameWorksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E78504430D6A4615477E900 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialFrameWorksTests/Pods-SocialFrameWorksTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IOSLinkedInAPIFix/IOSLinkedInAPIFix.framework",
+				"${BUILT_PRODUCTS_DIR}/LinkedinSwift/LinkedinSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftInstagram/SwiftInstagram.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSLinkedInAPIFix.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkedinSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftInstagram.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialFrameWorksTests/Pods-SocialFrameWorksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB45A5633FFE2326F2A40ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialFrameWorksTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A9F123216E034E00D042BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A9F12C216E034E00D042BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A9F136216E034E00D042BD /* SocialFrameWorksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A9F133216E034E00D042BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A9F126216E034E00D042BD /* SocialFrameWorks */;
+			targetProxy = 08A9F132216E034E00D042BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08A9F139216E034E00D042BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		08A9F13A216E034E00D042BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		08A9F13C216E034E00D042BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3EFE5780D602BE933C05B06 /* Pods-SocialFrameWorks.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SocialFrameWorks/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zencode.SocialFrameWorks;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A9F13D216E034E00D042BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06EEDA7824F8499013B92778 /* Pods-SocialFrameWorks.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SocialFrameWorks/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zencode.SocialFrameWorks;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08A9F13F216E034E00D042BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A03DB22585ECACD21012E3C /* Pods-SocialFrameWorksTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocialFrameWorksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zencode.SocialFrameWorksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08A9F140216E034E00D042BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60597A793B91E2D0211CE338 /* Pods-SocialFrameWorksTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SocialFrameWorksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zencode.SocialFrameWorksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A9F121216E034E00D042BD /* Build configuration list for PBXProject "SocialFrameWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A9F139216E034E00D042BD /* Debug */,
+				08A9F13A216E034E00D042BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A9F13B216E034E00D042BD /* Build configuration list for PBXNativeTarget "SocialFrameWorks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A9F13C216E034E00D042BD /* Debug */,
+				08A9F13D216E034E00D042BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A9F13E216E034E00D042BD /* Build configuration list for PBXNativeTarget "SocialFrameWorksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A9F13F216E034E00D042BD /* Debug */,
+				08A9F140216E034E00D042BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A9F11E216E034E00D042BD /* Project object */;
+}
