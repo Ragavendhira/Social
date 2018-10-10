@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SocialFrameWorks"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Provide interface to login with multiple social medias"
 
   # This description is used to generate tags and improve search results.
